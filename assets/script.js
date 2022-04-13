@@ -38,7 +38,7 @@ var tvshows = [
     'I-Zombie',
     'The End Of The Fxxxing World',
     'The Big Bang Theory',
-    'Unbelivable',
+    'Unbelievable',
     'Orange Is The New Black',
     'Mindhunter',
     'The I-Land',
@@ -159,8 +159,9 @@ var snacks = [
 ];
 
 var randomNumber = Math.floor(Math.random() * tvshows.length);
+var secondRandomNulber = Math.floor(Math.random() * snacks.length)
 
 var tvshow = tvshows[randomNumber];
-var snack = snacks[randomNumber];
+var snack = snacks[secondRandomNulber];
 
 document.getElementById('div1').innerHTML = ("Je vous propose <strong>" + tvshow + "</strong> avec <strong>" + snack + "</strong> ?");
