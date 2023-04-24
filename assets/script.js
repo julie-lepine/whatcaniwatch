@@ -1,4 +1,3 @@
-// Our List of Bars
 var tvshows = [
     'Alice in Borderland',
     'The Good Place',
@@ -78,7 +77,6 @@ var tvshows = [
     'Unbreakable Kimmy Schmidt',
 ];
 
-// Our List of Friends need 76 -> 158 
 var snacks = [
     'des Napolitains',
     'des M&M\'s',
